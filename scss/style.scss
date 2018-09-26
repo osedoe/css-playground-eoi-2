@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Italianno);
+
+/* General Style */
+body {
+    background: #6d5959;
+    color: #1e1e24;
+    font-family: 'Italianno', cursive;
+    font-size: 1.8em;
+    letter-spacing: 4px;
+    margin: 1em;
+    text-align: justify;
+
+    .aviso {
+        background: #cead8c;
+        border: 4px solid #1e1e24;
+        border-radius: 30px 2px 30px 2px;
+        box-shadow: 20px 20px 20px #454545;
+        margin: 0 auto;
+        padding: 1em;
+        width: 80vw;
+
+        h1 {
+            font-variant: small-caps;
+            text-align: center;
+        }
+
+        p {
+            font-weight: 600;
+            text-shadow: 1px 1px 1px #6d5959;
+
+            input {
+                background: inherit;
+                border: none;
+                border-bottom: 4px solid #6d595955;
+                border-radius: 5px;
+            }
+        }
+    }
+}
